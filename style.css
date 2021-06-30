@@ -2,10 +2,29 @@ ul,ol,li{
 	list-style: none;
 }
 
+#cv{
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
 #top{
 	margin: 0 auto;
-	width: 100%;
+	width: 80vw;
 	max-width: 1248px;
+	align-items: center;
+	justify-content: center;
+}
+
+article{
+	max-width: 90%;
+	margin-left: 4px;
+}
+
+.perfil{
+	width: 60%;
+	margin: 0;
+	padding: 0;
 }
 
 .clear {
@@ -13,25 +32,46 @@ ul,ol,li{
 }
 .mainDetails{
 	display: inline-block;
+	margin: 0 12%;
+	justify-content: space-between;
+	width: 80%;
+	height: 100px;
 }
+
 #headshot {
 	float: left;
 	margin: 0 auto;
 }
 #headshot  img{
+	width: 80px;
+	height: 80px;
 	margin: 0;
 	border-radius: 50%;
 }
 
 #name {
+	margin-left: 20px;
+	font-size: 16px;
 	display: inline-block;
+}
+
+#name h1,h2 {
+	margin: 0;
+	padding: 0;
 }
 
 #contactDetails {
 	float: right;
+	width: 180px;
+	bottom: 78px;
+	right: 20px;
+	position: relative;
 	margin: 0 auto;
-	width: 350px;
-	
+}
+
+hr{
+	width: 92%;
+	border-color: #dedede;
 }
 
 #mainArea{
@@ -48,20 +88,22 @@ ul,ol,li{
 	font-style: italic;
 }
 
-.sectionTitle > h1{
+.sectionTitle  h1{
 	margin-left: 40px;
 	font-size: larger;
 	font: 'Helvetica', sans-serif;
 }
 
-.sectionTitle > h2{
-	font: 'Helvetica',sans-serif;
+article h2{
+	font-family:'Lato',sans-serif;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .sectionContent {
+	margin-top: 10px;
 	float: right;
 	width: 80%;
-	border-top: 1px solid #dedede;
 	text-align: 1em;
 }
 
@@ -70,5 +112,13 @@ ul,ol,li{
 }
 
 .keySkills{
-	width: 12.5%;
+	display: flex;
+	height: 60px;
+	align-items: start;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.keySkills div{
+	margin-right: 60px;
 }
