@@ -1,27 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+body,html{
+	font-family: 'Lato',sans-serif;
+	color:#444444;
+	font-weight: 400;
+}
+
+#cv{
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	width: 975px;
+	margin: 30px auto 0;
+}
+
+#top{
+	margin: 0 auto;
+	width: 80vw;
+	max-width: 1248px;
+	align-items: center;
+	justify-content: center;
+}
+
+article{
+	max-width: 90%;
+	margin-left: 4px;
+}
+
+.perfil{
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+
 .clear {
 	clear: both;
 }
+.mainDetails{
+	display: inline-block;
+	margin: 0 12%;
+	justify-content: space-between;
+	width: 80%;
+	height: 100px;
+}
 
 #headshot {
-	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin: 0 auto;
+}
+#headshot  img{
+	width: 80px;
+	height: 80px;
+	margin: 0;
+	border-radius: 50%;
 }
 
 #name {
-	float: left;
+	margin-left: 20px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+#name h1{
+	margin: 0;
+	padding: 0;
+	color:black;
+	font-weight: 400px;
+}
+#name h2 {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-weight: 400;
 }
 
 #contactDetails {
 	float: right;
+	width: 180px;
+	bottom: 66px;
+	right: 20px;
+	position: relative;
+	margin: 0 auto;
+}
+
+hr{
+	width: 92%;
+	border: 1px solid #dedede;
+}
+
+#mainArea{
+	margin-right: 75px;
+	margin-left: 75px;
+	border-top: 2px solid #cf8a05;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 30%;
+	color:#cf8a05;
+	font: 'Helvetica', sans-serif;
+	font-style: italic;
+}
+
+.sectionTitle  h1{
+	margin-left: 40px;
+	font-size: larger;
+	font: 'Rokkitt', sans-serif;
+	margin-top: 14px;
+	font-weight: inherit;
+}
+
+article h2{
+	font-family:'Lato',sans-serif;
+	font-size: 18px;
+	font-weight:500;
+	color: black;
 }
 
 .sectionContent {
+	margin-top: 14px;
 	float: right;
-	width: 72.5%;
+	width: 70%;
+	text-align: 1em;
+	margin-bottom: 14px;
+}
+
+.subDetails{
+	font-style: italic;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12px;
+}
+
+.keySkills{
+	display: flex;
+	height: 60px;
+	align-items: start;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.keySkills div{
+	margin-right: 60px;
+}
+
+p{
+	margin-bottom: 14px;
 }

@@ -8,24 +8,26 @@
 <meta charset="UTF-8"> 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="reset.css">
 <link type="text/css" rel="stylesheet" href="style.css">
-
 <!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//html5shiv.go
+oglecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
 <body id="top">
 <div id="cv" >
 	<div class="mainDetails">
-		<div id="headshot">
-			<img src="headshot.jpg" alt="Alan Smith" />
-		</div>
-		
-		<div id="name">
-			<h1>Joe Bloggs</h1>
-			<h2>Job Title</h2>
-		</div>
-		
+		<div class="perfil">
+			<div id="headshot">
+				<img src="headshot.jpg" alt="Alan Smith" />
+			</div>
+			
+			<div id="name">
+				<h1>Joe Bloggs</h1>
+				<h2>Job Title</h2>
+			</div>
+		</div>		
 		<div id="contactDetails">
 			<ul>
 				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">joe@bloggs.com</a></li>
@@ -38,16 +40,17 @@
 	
 	<div id="mainArea">
 		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-				
-				<div class="sectionContent">
+			<div class="sectionTitle">
+				<h1>Personal Profile</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</div>
-			</article>
+				</article>
+			</div>
 			<div class="clear"></div>
+			<hr/>
 		</section>
 		
 		
@@ -76,6 +79,7 @@
 				</article>
 			</div>
 			<div class="clear"></div>
+			<hr/>
 		</section>
 		
 		
@@ -86,17 +90,24 @@
 			
 			<div class="sectionContent">
 				<ul class="keySkills">
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
+					<div>
+						<li>A Key Skill</li>
+						<li>A Key Skill</li>
+						<li>A Key Skill</li>
+					</div>
+					<div>
+						<li>A Key Skill</li>
+						<li>A Key Skill</li>
+						<li>A Key Skill</li>
+					</div>
+					<div>
+						<li>A Key Skill</li>
+						<li>A Key Skill</li>
+					</div>
 				</ul>
 			</div>
 			<div class="clear"></div>
+			<hr/>
 		</section>
 		
 		
@@ -119,6 +130,7 @@
 				</article>
 			</div>
 			<div class="clear"></div>
+			
 		</section>
 		
 	</div>
